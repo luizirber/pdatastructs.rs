@@ -20,7 +20,7 @@ edition = "2018"
 fixedbitset = "0.2"
 num-traits = "^0.2.4"
 rand = "0.7"
-succinct = "^0.5"
+succinct = { git ="https://github.com/tov/succinct-rs/", branch = "master"}
 void = "1"
 
 [dependencies.bytecount]
